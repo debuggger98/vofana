@@ -1,0 +1,36 @@
+export const INTENTS = [
+    "START_EXERCISE",
+    "COMPLETE_SET",
+    "CHANGE_WEIGHT",
+    "CHANGE_REPS",
+    "CORRECT_LAST_SET",
+    "UNDO",
+    "NEXT_SET",
+    "NEXT_EXERCISE",
+    "PREVIOUS_EXERCISE",
+    "SKIP_SET", 
+    "SKIP_EXERCISE",
+    "START_REST",
+    "CHANGE_REST",
+    "WHAT_NEXT",
+    "SETS_REMAINING",
+    "LAST_WEIGHT",
+    "LAST_REPS",
+    "CURRENT_EXERCISE",
+    "CURRENT_SET",
+    "END_WORKOUT"
+]
+
+export const UTTERANCES = [
+    "bench press",
+    "60 for 10",
+    "60 kilos, got 10",
+    "ten",
+    "same for eight",
+    "increase to 65",
+    "actually nine",
+    "undo that",
+    "what's next?",
+    "how many sets are left?",
+    "skip this",
+]

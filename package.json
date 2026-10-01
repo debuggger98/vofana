@@ -1,0 +1,9 @@
+{
+  "name": "vofana",
+  "private": true,
+  "packageManager": "pnpm@10.12.1",
+  "scripts": {
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  }
+}

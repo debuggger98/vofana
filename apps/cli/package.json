@@ -1,0 +1,29 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "voice:workout": "tsx voice_workout/session.ts",
+    "voice:workout:text": "tsx voice_workout/session.ts --text"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.62.0",
+    "dotenv": "^17.4.2",
+    "node-audiorecorder": "^3.0.0",
+    "node-record-lpcm16": "^1.0.1",
+    "ws": "^8.21.3"
+  }
+}

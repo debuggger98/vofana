@@ -1,0 +1,12 @@
+# .graphifyignore
+node_modules/
+dist/
+build/
+.next/
+coverage/
+*.log
+
+# Exclude documentation files to prevent LLM API key requirements
+*.md
+docs/
+DOCUMENTATION/
